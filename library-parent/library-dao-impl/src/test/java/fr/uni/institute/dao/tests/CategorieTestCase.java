@@ -30,7 +30,7 @@ public class CategorieTestCase {
 		
 		
 		categorieDao = new  CategoryDaoJdbc(connection);
-		nombreCategorie =8;
+		nombreCategorie = 9;
 		
 		
 		
