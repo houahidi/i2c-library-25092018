@@ -42,6 +42,15 @@
 		<artifactId>library-service-impl</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.httpunit/httpunit -->
+	<dependency>
+	    <groupId>org.httpunit</groupId>
+	    <artifactId>httpunit</artifactId>
+	    <version>1.7.2</version>
+	    <scope>test</scope>
+	</dependency>
+	
   </dependencies>
 
   <build>
