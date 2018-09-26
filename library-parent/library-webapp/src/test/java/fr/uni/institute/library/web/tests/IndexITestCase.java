@@ -22,7 +22,7 @@ public class IndexITestCase {
 		 	try {
 					WebConversation webConversation = new WebConversation();
 					WebResponse menuResponse = webConversation.getResponse(ADDRESS);
-					assertEquals("UNI Institute - UNI Library - fr_FR", menuResponse.getTitle());
+					assertEquals("UNI Institute - UNI Library - []", menuResponse.getTitle());
 				} catch (SAXException  e) {
 					fail("SAXException: " + e.getMessage());
 				} catch (IOException e) {
